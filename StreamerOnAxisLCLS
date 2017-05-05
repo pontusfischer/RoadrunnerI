@@ -1,0 +1,19 @@
+ID=114283
+PORT=8081
+A=192.168.0.11
+
+#search for running instance and shut it down
+PID=`ps -o pid,cmd -C mjpg_streamer|grep -m 1 i.$ID`
+if [ PID ]
+then
+  PID=`echo $PID|cut -d ' ' -f1`
+  kill $PID
+  sleep 5s
+fi
+
+
+#start new instance
+export LD_LIBRARY_PATH="$(pwd)/mjpg-streamer"
+cd mjpg-streamer
+./mjpg_streamer -i "./input_avt.so -a $A" -o "./output_http.so -p $PORT -w ./www"&
+cd ..

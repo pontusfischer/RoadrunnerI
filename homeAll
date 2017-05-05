@@ -1,0 +1,9 @@
+python homePiezos.py
+python homeGonio.py
+python homeGonioZ.py
+python homeOnaxisX.py
+python homeOnaxisY.py
+python homeOnaxisZ.py
+python homeBeamstopX.py
+python homeBeamstopY.py
+python restorePos.py

@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="programicons">
+    <file>P11Logo.png</file>
+    <file>cornerBottomLeft.png</file>
+    <file>cornerBottomRight.png</file>
+    <file>cornerCentre.png</file>
+    <file>cornerTopLeft.png</file>
+    <file>cornerTopRight.png</file>
+    <file>arrowInT.png</file>
+    <file>arrowOutT.png</file>
+    <file>arrowUpT.png</file>
+    <file>arrowDownT.png</file>
+    <file>arrowLeftT.png</file>
+    <file>arrowRightT.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,3 @@
+echo "compiling"
+pyuic4 lcls.ui > LCLSGUI.py
+pyrcc4 -o guires_rc.py guires.qrc
